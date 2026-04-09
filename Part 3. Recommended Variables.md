@@ -1,0 +1,216 @@
+
+#Recommended Variables to Improve Model Robustness
+
+To improve the predictive performance of the model, it is recommended to incorporate additional variables that capture **external context**, **customer characteristics**, and **environmental factors** that influence purchasing behavior.
+
+These variables can be grouped into three main categories:
+
+---
+
+## 1️⃣ Demographic and Point-of-Sale (POC) Variables
+
+### 📊 Examples:
+
+* Geographic location of the customer or point of sale (city, region)
+* Socioeconomic level of the area
+* Channel type (convenience store, supermarket, bar, restaurant)
+* Store size
+* Population density
+
+---
+
+### 🧠 Justification:
+
+Beer consumption is strongly influenced by:
+
+* urban vs rural context
+* purchasing power
+* channel type
+
+---
+
+### 🌐 Are they publicly available?
+
+✅ **Yes (partially)**
+
+---
+
+### 📍 Sources:
+
+* DANE
+  → population, income, and socioeconomic data
+
+* OpenStreetMap
+  → geolocation and spatial data
+
+---
+
+## 2️⃣ Temporal and Seasonal Variables
+
+### 📊 Examples:
+
+* Day of the week
+* Month
+* Public holidays
+* Special events (sports events, concerts)
+* Seasonal periods (vacations, holidays)
+
+---
+
+### 🧠 Justification:
+
+Beer consumption is highly seasonal:
+
+* weekends ↑
+* sports events ↑
+* holidays ↑
+
+---
+
+### 🌐 Are they publicly available?
+
+✅ **Yes**
+
+---
+
+### 📍 Sources:
+
+* Gobierno de Colombia
+* official calendars / public APIs
+
+---
+
+## 3️⃣ Macroeconomic Variables
+
+### 📊 Examples:
+
+* Inflation
+* Consumer Price Index (CPI)
+* Average income
+* Unemployment rate
+
+---
+
+### 🧠 Justification:
+
+Consumption behavior is influenced by:
+
+* purchasing power
+* economic conditions
+
+---
+
+### 🌐 Are they publicly available?
+
+✅ **Yes**
+
+---
+
+### 📍 Sources:
+
+* Banco de la República
+* DANE
+
+---
+
+## 4️⃣ Marketing and Promotion Variables
+
+### 📊 Examples:
+
+* Discounts applied
+* Active promotions
+* Advertising exposure by brand
+* Relative price vs competitors
+
+---
+
+### 🧠 Justification:
+
+Purchase decisions are strongly influenced by:
+
+* price
+* promotions
+* brand visibility
+
+---
+
+### 🌐 Are they publicly available?
+
+❌ **No (typically internal data)**
+
+---
+
+### 📍 Source:
+
+* Internal company data (e.g., Bavaria)
+
+---
+
+## 5️⃣ Competitive Variables
+
+### 📊 Examples:
+
+* Number of brands available at the point of sale
+* Market share by region
+* Presence of premium vs economy brands
+
+---
+
+### 🧠 Justification:
+
+The competitive environment directly impacts:
+
+* brand choice
+* switching behavior
+
+---
+
+### 🌐 Are they publicly available?
+
+🟡 **Partially**
+
+---
+
+### 📍 Sources:
+
+* Nielsen / Kantar (paid sources)
+* market research reports
+
+---
+
+## 6️⃣ Advanced Behavioral Variables
+
+### 📊 Examples:
+
+* Time between purchases (interpurchase time)
+* Consumption trends (growth or decline over time)
+* Last brand purchased
+* Purchase sequences
+
+---
+
+### 🧠 Justification:
+
+These variables capture **customer dynamics**, not just aggregates
+
+---
+
+### 🌐 Are they publicly available?
+
+❌ **No (internally derived)**
+
+---
+
+# 🧠 Conclusion
+
+> “Incorporating external variables—particularly those related to geographic, temporal, and economic context—would allow the model to capture exogenous factors that influence purchasing behavior, thereby improving its predictive performance and robustness.”
+
+---
+
+# 🔥 Bonus
+
+> “In particular, marketing and competitive variables are expected to have a strong impact, as purchase decisions in this category are highly influenced by price, availability, and promotional stimuli.”
+
+---
+
+Si quieres, te ayudo a dejar esto en versión **ultra corta tipo bullet points para entrevista** o integrarlo con todo tu README final 🔥
