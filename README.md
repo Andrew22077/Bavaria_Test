@@ -39,6 +39,10 @@ Two complementary approaches were applied:
 
 ### 🔹 K-Means Clustering
 
+Cluster Strategy
+<img width="616" height="442" alt="image" src="https://github.com/user-attachments/assets/6ad2c670-a9ca-4a25-ac29-e0904aafe8e5" />
+
+
 Customers were grouped based on:
 
 * Purchase frequency
